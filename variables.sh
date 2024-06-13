@@ -44,5 +44,11 @@ REDDIT_VERSION="2024.17.0"
 DL_LINK_REDDIT="https://pixeldrain.com/api/file/QBPbVNFX?download"
 REDDIT_NEW_FILENAME="Reddit_${REDDIT_VERSION}.apk"
 
+# Twitter
+
+TWITTER_VERSION="10.41.0"
+DL_LINK_TWITTER="https://pixeldrain.com/api/file/cj62HpCs?download"
+TWITTER_NEW_FILENAME="Twitter_${TWITTER_VERSION}.apk"
+
 # Universal
 UNIVERSAL_APK="Universal_x.x.x.apk"
