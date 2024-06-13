@@ -52,3 +52,12 @@ TWITTER_NEW_FILENAME="Twitter_${TWITTER_VERSION}.apk"
 
 # Universal
 UNIVERSAL_APK="Universal_x.x.x.apk"
+
+# Colors
+RED='\033[0;31m'         # Red
+GREEN='\033[0;32m'       # Green
+YELLOW='\033[0;33m'      # Yellow
+BLUE='\033[0;34m'        # Blue
+MAGENTA='\033[0;35m'     # Magenta
+CYAN='\033[0;36m'        # Cyan
+NC='\033[0m'             # Color Reset (No Color)
