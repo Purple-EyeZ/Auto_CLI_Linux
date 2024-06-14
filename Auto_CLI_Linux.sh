@@ -9,6 +9,47 @@ MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0m'
 
+center_text() {
+    local text="$1"
+    local width=$(tput cols)
+    local text_length=${#text}
+    local padding=$(( (width - text_length) / 2 ))
+    printf "%*s%s\n" $padding "" "$text"
+}
+
+clear
+echo -e "${GREEN}"
+center_text "===================================="
+center_text "          Auto CLI Linux"
+center_text "===================================="
+echo -e "${NC}"
+center_text "The script will download and install if necessary:"
+center_text "- Open JDK 11"
+center_text "- The files required for the CLI"
+center_text "- Dependencies needed to run the script"
+echo
+center_text "Also, all .apk files come from [apkmirror.com], they are downloaded by myself and uploaded to [pixeldrain.com]"
+center_text "so that the script can download them (because it's impossible to do this simply via [apkmirror.com])."
+echo
+center_text "${GREEN}Do you want to continue? (Y/n)${NC}"
+
+# Demander à l'utilisateur s'il souhaite continuer
+read -p "$(center_text "Choose an option and press [ENTER] [Y/n]: ")" choice
+
+case "$choice" in
+    [Yy]*|"")
+        echo "Continuing with the script..."
+        ;;
+    [Nn]*)
+        echo "Exiting the script. Goodbye!"
+        exit 0
+        ;;
+    *)
+        echo "Invalid option. Exiting the script."
+        exit 1
+        ;;
+esac
+
 # Sources
 source_variables() {
     local variables_url="https://raw.githubusercontent.com/Purple-EyeZ/Auto_CLI_Linux/main/variables.sh"
