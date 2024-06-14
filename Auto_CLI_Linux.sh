@@ -20,7 +20,7 @@ center_text() {
 clear
 echo -e "${GREEN}"
 center_text "===================================="
-center_text "          Auto CLI Linux"
+center_text ">>  Auto CLI Linux  <<"
 center_text "===================================="
 echo -e "${NC}"
 center_text "The script will download and install if necessary:"
@@ -246,10 +246,9 @@ echo -e "    ${CYAN}4.${NC} Patch YouTube Music ${YELLOW}(ARMv7a)${NC} ${MAGENTA
 echo -e "    ${CYAN}5.${NC} Patch TikTok ${MAGENTA}($TIKTOK_VERSION)${NC}"
 echo -e "    ${CYAN}6.${NC} Patch Reddit ${MAGENTA}($REDDIT_VERSION)${NC}"
 echo -e "    ${CYAN}7.${NC} Patch Twitter ${YELLOW}(Android 8+)${NC} ${MAGENTA}($TWITTER_VERSION)${NC}"
-echo -e "    ${CYAN}U.${NC} (Universal) Patch an application not listed here, with default patches and default options"
 echo -e "${BLUE}C. Clean CLI files and close script${NC}"
 echo -e "${RED}E. Exit script${NC}"
-read -p "Choose an option and press [ENTER] [1/2/3/4/5/6/7/U/C/E]: " choice
+read -p "Choose an option and press [ENTER] [1/2/3/4/5/6/7/C/E]: " choice
 
 case $choice in
     1)
