@@ -30,10 +30,10 @@ center_text "- Dependencies needed to run the script"
 echo
 center_text "Also, all .apk files come from [apkmirror.com], they are downloaded by myself and uploaded to [pixeldrain.com]"
 center_text "so that the script can download them (because it's impossible to do this simply via [apkmirror.com])."
-echo
-center_text "${GREEN}Do you want to continue? (Y/n)${NC}"
+echo -e "${GREEN}"
+center_text "Do you want to continue? (Y/n)"
+echo -e "${NC}"
 
-# Demander à l'utilisateur s'il souhaite continuer
 read -p "$(center_text "Choose an option and press [ENTER] [Y/n]: ")" choice
 
 case "$choice" in
