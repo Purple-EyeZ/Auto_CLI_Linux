@@ -10,13 +10,13 @@ HASH_CLI="d48a88fefd40c5df056afb7680fa9424"
 
 REVANCED_PATCHES="revanced-patches-4.10.0.jar"
 DL_LINK_PATCHES="https://github.com/ReVanced/revanced-patches/releases/download/v4.10.0/revanced-patches-4.10.0.jar"
-HASH_PATCHES="26bc462215116f7f84767f1d61157f2c"
+HASH_PATCHES="3a4c7515c6b2d6f170a8059b5f747828"
 
 # integrations
 
 REVANCED_INTEGRATIONS="revanced-integrations-1.11.0.apk"
 DL_LINK_INTEGRATIONS="https://github.com/ReVanced/revanced-integrations/releases/download/v1.11.0/revanced-integrations-1.11.0.apk"
-HASH_INTEGRATIONS="bcb9efdc9aeb4979290f1407c61854bb"
+HASH_INTEGRATIONS="ecf9ae0dd8b6bb498cd6bf0e30c44872"
 
 # YouTube
 
