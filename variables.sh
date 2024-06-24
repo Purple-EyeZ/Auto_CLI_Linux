@@ -8,14 +8,14 @@ HASH_CLI="d48a88fefd40c5df056afb7680fa9424"
 
 # Patches
 
-REVANCED_PATCHES="revanced-patches-4.9.0.jar"
-DL_LINK_PATCHES="https://github.com/ReVanced/revanced-patches/releases/download/v4.9.0/revanced-patches-4.9.0.jar"
+REVANCED_PATCHES="revanced-patches-4.10.0.jar"
+DL_LINK_PATCHES="https://github.com/ReVanced/revanced-patches/releases/download/v4.10.0/revanced-patches-4.10.0.jar"
 HASH_PATCHES="26bc462215116f7f84767f1d61157f2c"
 
 # integrations
 
-REVANCED_INTEGRATIONS="revanced-integrations-1.10.0.apk"
-DL_LINK_INTEGRATIONS="https://github.com/ReVanced/revanced-integrations/releases/download/v1.10.0/revanced-integrations-1.10.0.apk"
+REVANCED_INTEGRATIONS="revanced-integrations-1.11.0.apk"
+DL_LINK_INTEGRATIONS="https://github.com/ReVanced/revanced-integrations/releases/download/v1.11.0/revanced-integrations-1.11.0.apk"
 HASH_INTEGRATIONS="bcb9efdc9aeb4979290f1407c61854bb"
 
 # YouTube
